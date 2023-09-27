@@ -44,8 +44,6 @@ function AppHeader() {
 }
 
 function App() {
-  // const [count, setCount] = useState(0);
-  // const [count, setCount] = useState({ type: 'even', count: 0 });
 
   return (
     <>
