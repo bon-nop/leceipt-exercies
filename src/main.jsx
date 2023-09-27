@@ -5,14 +5,11 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import { BrowserRouter } from "react-router-dom";
-// import { Provider } from "./context/member.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter  basename={import.meta.env.DEV ? '/' : '/leceipt-exercies/'}>
-      {/* <Provider> */}
+    <BrowserRouter>
         <App />
-      {/* </Provider> */}
     </BrowserRouter>
   </React.StrictMode>
 );
