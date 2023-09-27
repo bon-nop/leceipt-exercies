@@ -25,13 +25,13 @@ function AppHeader() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="px-3" href="/">
+              <Nav.Link className="px-3" href="leceipt-exercies/">
                 Question 1
               </Nav.Link>
-              <Nav.Link className="px-3" href="/counter">
+              <Nav.Link className="px-3" href="leceipt-exercies/counter">
                 Counter Question
               </Nav.Link>
-              <Nav.Link className="px-3" href="/question-3">
+              <Nav.Link className="px-3" href="leceipt-exercies/question-3">
                 Question 3
               </Nav.Link>
             </Nav>
