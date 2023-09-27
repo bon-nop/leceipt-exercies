@@ -7,6 +7,9 @@ export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
     base: '/',
+    define: {
+      'import.meta.env.DEV': true // Set DEV to true for development
+    }
   }
 
   if (command !== 'serve') {
